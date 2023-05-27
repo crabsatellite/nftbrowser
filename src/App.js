@@ -45,7 +45,7 @@ function App() {
         <Input.Group compact className="SearchBar">
           <Input
             style={{ width: 300, borderRadius: 10 }}
-            placeholder="Enter a NFT name to search, e.g. CryptoPunk"
+            placeholder='e.g. "CryptoPunk", "Car"'
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
