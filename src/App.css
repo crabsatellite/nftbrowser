@@ -66,10 +66,24 @@
   width: 100px;
   background-color: #6cb7cc;
   border-color: #6cb7cc;
-  border-radius: 5px;
   color: white;
   font-size: 15px;
   font-weight: 600;
   font-family: "Courier New", Courier, monospace;
   cursor: pointer;
+}
+
+.SearchBar button:hover {
+  background-color: #5a9da6;
+  border-color: #5a9da6;
+}
+
+.SearchBar input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #6cb7cc;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
 }
