@@ -76,7 +76,7 @@ function App() {
             xxl: 4,
           }}
           dataSource={nfts}
-          renderItem={(nft) => <NftCard nft={nft} />}
+          renderItem={(nft) => <NftCard nft={nft} className="NftCard" />}
         />
       </Content>
     </Layout>
