@@ -31,11 +31,10 @@ function App() {
 
   return (
     <Layout style={{ height: "100vh" }}>
-      <Header className="Header">
-        <div style={{ fontSize: 16, fontWeight: 600, color: "white" }}>
-          NFT Browser
-        </div>
+      <Header className="header">
+        <div className="header-character">NFT Browser</div>
       </Header>
+
       <Content
         style={{ height: "calc(100% - 64px)", padding: 20, overflowY: "auto" }}
       >
