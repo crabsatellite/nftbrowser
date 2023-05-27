@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./App.css";
 import NftCard from "./components/NftCard";
 import { searchNFTs } from "./utils";
+import Background from "./components/BackGround";
 
 const { Header, Content } = Layout;
 
@@ -30,7 +31,7 @@ function App() {
 
   return (
     <Layout style={{ height: "100vh" }}>
-      <Header>
+      <Header className="Header">
         <div style={{ fontSize: 16, fontWeight: 600, color: "white" }}>
           NFT Browser
         </div>
@@ -38,7 +39,11 @@ function App() {
       <Content
         style={{ height: "calc(100% - 64px)", padding: 20, overflowY: "auto" }}
       >
-        <Input.Group compact>
+        <Background
+          videoSource={`https://personalwebpage-videos.s3.us-east-2.amazonaws.com/nft_browser_background.mp4`}
+          posterSource={`${process.env.PUBLIC_URL}/images/nft_browser_background_poster.jpg`}
+        />
+        <Input.Group compact className="SearchBar">
           <Input
             style={{ width: 300 }}
             placeholder="Enter a NFT name to search"

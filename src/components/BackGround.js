@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Background.css"; // 引入样式文件
+import "../css/Background.css";
 
 const Background = ({ videoSource, posterSource }) => {
   console.log(videoSource);

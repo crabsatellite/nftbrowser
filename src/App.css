@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.Header {
+  z-index: 1;
+}
+
+.SearchBar {
+  z-index: 1;
+}
