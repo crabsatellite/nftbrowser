@@ -49,7 +49,13 @@ function App() {
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
-          <Button type="primary" onClick={handleSearch}>
+          <Button
+            type="primary"
+            onClick={handleSearch}
+            loading={loading}
+            className="SearchButton"
+            style={{ borderRadius: 10 }}
+          >
             Search
           </Button>
         </Input.Group>
