@@ -1,4 +1,4 @@
-const origin = "https://moralis.io";
+const origin = "https://deep-index.moralis.io";
 const apiKey =
   "oomBH4hCqqmk1Hu0OsPjuqinE4O0NjjTEUIqN9pRkOU5ABLsmS5iXNeRLY6kRxi5";
 
