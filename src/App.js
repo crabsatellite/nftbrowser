@@ -45,7 +45,7 @@ function App() {
         <Input.Group compact className="SearchBar">
           <Input
             style={{ width: 300, borderRadius: 10 }}
-            placeholder="Enter a NFT name to search"
+            placeholder="Enter a NFT name to search, e.g. CryptoPunk"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
@@ -65,7 +65,6 @@ function App() {
             height: "calc(100% - 52px)",
             overflow: "auto",
           }}
-          loading={loading}
           grid={{
             gutter: 16,
             xs: 1,
